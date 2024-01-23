@@ -50,6 +50,8 @@ table {
 }
 
 button {
+	text-decoration: none;
+	text-transform: none;
 	border: none;
 	cursor: pointer;
-  }
+}
