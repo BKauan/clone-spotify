@@ -6,7 +6,10 @@
     <title>Spotify Clone</title>
 
     <link rel="stylesheet" href="src/styles/reset.css" />
+    <link rel="stylesheet" href="src/styles/vars.css">
     <link rel="stylesheet" href="src/styles/style.css" />
+    <link rel="stylesheet" href="src/styles/main-content.css">
+    <link rel="stylesheet" href="src/styles/media-screen.css">
 
     <link
       rel="stylesheet"
@@ -91,6 +94,38 @@
         </div>
       </div>
     </div>
+
+    <main>
+      <div class="main-container">
+        <div class="header-navigation">
+          <div class="navigation">
+            <button class="arrow-left">
+              <img src="src/assets/icons/small-left.png" alt="Seta Esquerda">
+            </button>
+            <button class="arrow-right">
+              <img src="src/assets/icons/small-right.png" alt="Seta Direita">
+            </button>
+
+            <div class="header__search">
+              <img src="src/assets/icons/search.png" alt="">
+              <input type="text" id="search-input" maxlength="800" placeholder="O que você quer ouvir?">
+            </div>
+
+            <div class="header__login">
+              <button class="subscribe">Inscreva-se</button>
+              <button class="login">Entrar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content">
+          <div class="main-content__text">
+            <h1>Boa tarde!</h1>
+            <h2>Navegar por todas as seções</h2>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer class="footer">
       <div class="footer__text">
