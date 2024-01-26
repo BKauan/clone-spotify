@@ -15,19 +15,6 @@ body {
   font-family: var(--font-dm-sans);
 }
 
-*::-webkit-scrollbar {
-  width: 10px;
-}
-
-*::-webkit-scrollbar-track {
-  background: none;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #cccccc5e;
-  border-radius: 3px;
-}
-
 .sidebar {
   position: fixed;
   top: 0;
@@ -82,6 +69,7 @@ body {
   font-size: 14px;
   margin-top: 10px;
   flex-direction: column;
+  min-height: 81%;
 }
 
 .library__content {
@@ -176,7 +164,7 @@ body {
 }
 
 .sidebar .cookies {
-  margin: 25px 20px;
+  margin: 3px 0 4rem 13px;
 }
 
 .sidebar .cookies a {
@@ -188,6 +176,21 @@ body {
 
 .sidebar .cookies a:hover {
   text-decoration: underline;
+}
+
+.policies {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.policies a {
+  margin: 13px 13px;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  font-family: var(--font-dm-sans);
+  color: #b3b3b3;
+  text-decoration: none;
 }
 
 .languages .languages__button {
